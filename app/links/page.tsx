@@ -9,11 +9,8 @@ export default function Index() {
     return (
         <div className="bg-cover bg-center flex justify-center items-center min-h-screen bg-fundo">
             <div className="container max-w-md px-4 ">
-                <div className="m-4 text-center">
-                    {/* <Image width={150} height={150} src={"img/person.jpg"} className="rounded-full border-2 md:border-4 border-white mx-auto w-24 md:w-36" alt="" /> */}
-                </div>
                 <div className="my-2 md:my-6 text-center">
-                    {/* <Image width={150} height={150} src={"img/logo-new-white.png"} className="mx-auto w-2/3" alt="" /> */}
+                    <Image width={150} height={150} src={"/img/logo-congresso.png"} className="mx-auto w-2/3" alt="" />
                 </div>
                 <div className="font-medium text-base md:text-lg lg:text-xl">
                     <Link href="http://instagram.com.br/umadqoficial" target="_blank">
