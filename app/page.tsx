@@ -4,6 +4,7 @@ import Banner from "./parts/home/banner";
 import Header from "./parts/estrutura/header";
 import Footer from "./parts/estrutura/footer";
 import Marquee from "./parts/home/marquee";
+import Agenda from "./parts/home/Agenda";
 
 export default function Home() {
     return (
@@ -11,6 +12,7 @@ export default function Home() {
             <Header />
             <Banner />
             <Marquee />
+            <Agenda />
             <Footer />
         </main>
     );

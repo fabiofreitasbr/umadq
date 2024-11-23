@@ -7,7 +7,7 @@ export default function Marquee() {
         return idents;
     }
     return (
-        <div className="flex justify-center">
+        <div className="flex justify-center z-20 relative">
             <div className="w-full relative">
                 <div className="w-[105%] absolute -left-2 top-0 bg-black border-t-4 border-b-4 border-yellow-500 py-3 md:py-4 lg:py-5 text-center overflow-hidden font-playfair font-bold text-yellow-500 text-base md:text-lg lg:text-xl 2xl:text-2xl -rotate-3">
                     <div className="marquee reverse flex justify-center gap-10">
