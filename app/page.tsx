@@ -8,7 +8,7 @@ import Agenda from "./parts/home/Agenda";
 
 export default function Home() {
     return (
-        <main>
+        <main className="w-full overflow-x-hidden">
             <Header />
             <Banner />
             <Marquee />

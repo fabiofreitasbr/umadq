@@ -50,7 +50,7 @@ export default function Header() {
                     </div>
                 </div>
             </header>
-            <nav onClick={menuBurger} className={"block md:hidden z-40 w-full h-screen bg-blue-600 fixed top-0 px-6 pt-28 transition-all duration-300 ease-in-out " + menuNavigation}>
+            <nav onClick={menuBurger} className={"block md:hidden z-40 w-full h-screen bg-red-600 fixed top-0 px-6 pt-28 transition-all duration-300 ease-in-out " + menuNavigation}>
                 <div className="container mx-auto">
                     <ul className="flex flex-col gap-5 xl:gap-10 text-2xl font-medium">
                         <li><Link href="/" className="text-white">Home</Link></li>

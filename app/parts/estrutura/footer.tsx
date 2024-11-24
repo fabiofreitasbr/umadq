@@ -6,7 +6,7 @@ import ContentLinks from '../dados/contentLinks';
 
 const Footer = () => {
     return (
-        <footer className="bg-black py-8 md:py-12 block text-white p-4">
+        <footer className="bg-red-500 py-8 md:py-12 block text-white p-4">
             <div className="container mx-auto px-4">
                 <div className="flex items-center flex-col">
                     <h3 className="text-center text-2xl md:text-3xl mb-4 font-playfair font-bold text-beige-500">Siga-nos no instagram</h3>

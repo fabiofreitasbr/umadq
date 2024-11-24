@@ -9,7 +9,7 @@ import imgGuerreiro from  "@/public/img/guerreiro.png"
 export default function Banner() {
     return (
         <>
-            <div id="banner" className="relative overflow-hidden bg-cover bg-fundo bg-center min-h-[20rem] md:h-[36rem] lg:h-[42rem] 2xl:h-[48rem] pt-10">
+            <div id="banner" className="relative overflow-hidden bg-cover bg-fundo bg-center min-h-[32rem] md:h-[36rem] lg:h-[42rem] 2xl:h-[48rem] pt-10 flex items-center z-20">
                 <div className="container mx-auto px-10 md:px-4 h-full">
                     <div className="md:flex items-center justify-center h-full">
                         <div className="w-full relative z-50 md:w-1/2 h-full flex flex-col justify-center mb-4 ">
