@@ -7,7 +7,7 @@ import ContentLinks from "../dados/contentLinks";
 
 export default function Header() {
     const namePath = usePathname();
-    const menuFlutuante = (namePath == "/") ? "absolute " : "bg-blue-500 relative";
+    const menuFlutuante = (namePath == "/") ? "absolute " : "bg-fundo bg-cover bg-center relative";
 
     const [menuActive, setMenuActive] = useState("");
     const [menuNavigation, setMenuNavigation] = useState("-right-full");
@@ -29,11 +29,11 @@ export default function Header() {
                         <nav className="flex items-center gap-x-10">
                             <ul className="hidden md:flex gap-x-5 xl:gap-x-10 text-base xl:text-lg font-medium">
                                 <li><Link href="/" className={"text-white hover:text-orange-500 transition-colors " + (namePath == '/' ? " !text-orange-500" : "")}>Início</Link></li>
-                                <li><Link href="/sobre" className={"text-white hover:text-orange-500 transition-colors " + (namePath == '/sobre' ? " !text-orange-500" : "")}>Eventos</Link></li>
-                                <li><Link href="/servicos" className={"text-white hover:text-orange-500 transition-colors " + (namePath == '/servicos' ? " !text-orange-500" : "")}>Programação</Link></li>
-                                <li><Link href="/contato" className={"text-white hover:text-orange-500 transition-colors " + (namePath == '/contato' ? " !text-orange-500" : "")}>Espiritua</Link></li>
-                                <li><Link href="/contato" className={"text-white hover:text-orange-500 transition-colors " + (namePath == '/contato' ? " !text-orange-500" : "")}>Tema</Link></li>
-                                <li><Link href="/contato" className={"text-white hover:text-orange-500 transition-colors " + (namePath == '/contato' ? " !text-orange-500" : "")}>Equipe</Link></li>
+                                <li><Link href="/agenda" className={"text-white hover:text-orange-500 transition-colors " + (namePath == '/sobre' ? " !text-orange-500" : "")}>Agenda</Link></li>
+                                <li><Link href="/midia" className={"text-white hover:text-orange-500 transition-colors " + (namePath == '/servicos' ? " !text-orange-500" : "")}>Fotos e Vídeos</Link></li>
+                                <li><Link href="/espiritual" className={"text-white hover:text-orange-500 transition-colors " + (namePath == '/contato' ? " !text-orange-500" : "")}>Espiritual</Link></li>
+                                <li><Link href="/tema" className={"text-white hover:text-orange-500 transition-colors " + (namePath == '/contato' ? " !text-orange-500" : "")}>Tema</Link></li>
+                                <li><Link href="/equipe" className={"text-white hover:text-orange-500 transition-colors " + (namePath == '/contato' ? " !text-orange-500" : "")}>Equipe</Link></li>
                             </ul>
 
                             <div className="flex items-center gap-x-4 ">

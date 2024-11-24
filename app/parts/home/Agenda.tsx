@@ -1,7 +1,7 @@
 
 function Evento() {
     return (
-        <div className="border rounded-md py-3 px-4 md:py-5 md:px-7" >
+        <div className="border rounded-md py-3 px-4 md:py-5 md:px-7 overflow-hidden relative" >
             <div className="grid grid-cols-2">
                 <div>
                     <p className="text-2xl md:text-3xl mb-2 text-azul-500 font-semibold text-yellow-500">22/11</p>
@@ -14,6 +14,9 @@ function Evento() {
             <hr className="w-full border my-6" />
             <p className="text-base md:text-xl text-icone font-light uppercase pb-2 text-yellow-500">CONGRESSO UMADQ</p>
             <p className="text-sm md:text-lg text-icone font-bold">SEDE</p>
+            <div className="absolute top-[13%] -right-[35%] bg-red-500 text-sm md:text-base w-full rotate-45 text-white text-center">
+                REALIZADO
+            </div>
         </div>
     )
 }

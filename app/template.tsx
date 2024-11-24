@@ -6,12 +6,12 @@ import Footer from "./parts/estrutura/footer";
 import Marquee from "./parts/home/marquee";
 import Agenda from "./parts/home/Agenda";
 
-export default function Home() {
+export default function Home({ children }: { children: React.ReactNode }) {
     return (
-        <main className="w-full overflow-x-hidden">
-            <Banner />
-            <Marquee />
-            <Agenda />
-        </main>
+        <div>
+            <Header />
+                {children}
+            <Footer />
+        </div>
     );
 }
