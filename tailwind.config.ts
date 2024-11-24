@@ -17,6 +17,9 @@ const config: Config = {
                 yellow: {
                     "500": "#eb9500"
                 },
+                bege: {
+                    "500": "#fddeb2"
+                },
             },
             backgroundImage: {
                 "fundo": "url('/img/background.png')",
