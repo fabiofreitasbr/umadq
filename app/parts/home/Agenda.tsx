@@ -1,13 +1,19 @@
 
 function Evento() {
     return (
-        <div className="border rounded-md py-4 px-5 md:py-6 md:px-8">
-            <h1 className="text-lg  md:text-xl text-convite" >QUARTA-FEIRA</h1>
-            <p className="text-4xl md:text-5xl my-4 text-azul-500 font-semibold">29/08</p>
-            <p className="xl md:text-3xl my-4 text-marrom-500">às 19:00</p>
+        <div className="border rounded-md py-3 px-4 md:py-5 md:px-7" >
+            <div className="grid grid-cols-2">
+                <div>
+                    <p className="text-2xl md:text-3xl mb-2 text-azul-500 font-semibold text-yellow-500">22/11</p>
+                    <h1 className="text-base  md:text-lg text-convite" >SEXTA-FEIRA</h1>
+                </div>
+                <div className="text-right">
+                    <p className="text-xl md:text-2xl text-marrom-500">19:00</p>
+                </div>
+            </div>
             <hr className="w-full border my-6" />
-            <p className="text-lg md:text-3xl text-icone uppercase pb-2">prisca</p>
-            <p className="text-sm md:text-xl text-icone font-extrabold">Campos do Jordão</p>
+            <p className="text-base md:text-xl text-icone font-light uppercase pb-2 text-yellow-500">CONGRESSO UMADQ</p>
+            <p className="text-sm md:text-lg text-icone font-bold">SEDE</p>
         </div>
     )
 }
