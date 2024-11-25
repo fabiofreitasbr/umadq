@@ -15,14 +15,14 @@ export default function Equipe() {
                                 <img src="/img/equipe/fabiofreitas.jpg" alt="" className="w-10 h-10 m-auto rounded-full object-cover lg:w-28 lg:h-28 mb-6" />
                                 <div className="mb-4">
                                     <h5 className="hidden mt-4 text-xl font-semibold text-white lg:block">Fábio Freitas</h5>
-                                <span className="hidden text-white lg:block">Produtor</span>
+                                    <span className="hidden text-white lg:block">Produtor</span>
                                 </div>
-                               <a href="" target="_blank">
-                                     <button className="w-full bg-red-500 hover:bg-red-600 py-2 px-3 lg:px-6 rounded-md text-white flex items-center justify-center gap-x-2 transition-all">
+                                <a href="" target="_blank">
+                                    <button className="w-full bg-red-500 hover:bg-red-600 py-2 px-3 lg:px-6 rounded-md text-white flex items-center justify-center gap-x-2 transition-all">
                                         <FontAwesomeIcon icon={faInstagram} className="w-4 h-4" />
                                         <span className="hidden lg:inline"> @fabiofreitasbr </span>
                                     </button>
-                               </a>
+                                </a>
                             </div>
                         </div>
                     </div>
