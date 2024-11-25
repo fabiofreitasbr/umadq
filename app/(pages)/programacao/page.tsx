@@ -1,6 +1,6 @@
 import HeaderTitle from "@/app/parts/estrutura/headerTitle";
 
-export default function Tema() {
+export default function Programacao() {
     return (
         <>
             <HeaderTitle title="Tema" />

@@ -1,4 +1,5 @@
 import HeaderTitle from "@/app/parts/estrutura/headerTitle";
+import Agenda from "@/app/parts/home/Agenda";
 
 export default function Eventos() {
     return (
@@ -6,7 +7,7 @@ export default function Eventos() {
             <HeaderTitle title="Eventos" />
             <section className="min-h-96 my-8">
                 <div className="container mx-auto px-4">
-                    <h1 className="text-2xl uppercase">Conteúdos</h1>
+                    <Agenda />
                 </div>
             </section>
         </>
