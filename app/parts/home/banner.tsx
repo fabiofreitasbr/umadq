@@ -13,8 +13,8 @@ export default function Banner() {
                                 <h2 className="text-2xl md:text3xl xl:text-4xl text-yellow-500 pb-4">11º CONGRESSO JOVEM</h2>
                                 <h3 className="text-base md:text-lg xl:text-xl pb-6 font-light">União de Mocidade das Assembleias de Deus em Queimados apresenta o tema de guerra espiritual baseado em efésios 6.</h3>
                                 <div className="flex gap-x-4">
-                                    <Link href="/programacao"><button className="border-2 border-whiite hover:bg-white hover:text-red-500 font-normal text-lg py-2 px-3 lg:px-6 rounded-md text-white uppercase flex items-center transition-all mx-auto md:mx-0 hover:scale-105"><span className="inline"> ASSISTIR EVENTO </span></button></Link>
-                                <Link href="/programacao"><button className="border-2 border-whiite hover:bg-white hover:text-red-500 font-normal text-lg py-2 px-3 lg:px-6 rounded-md text-white uppercase flex items-center transition-all mx-auto md:mx-0 hover:scale-105"><span className="inline"> Nosso Eventos </span></button></Link>
+                                    <Link href="/programacao"><button className="border-2 border-whiite hover:bg-white hover:text-red-500 font-normal text-lg md:text-lg py-2 px-3 lg:px-6 rounded-md text-white uppercase flex items-center transition-all mx-auto md:mx-0 hover:scale-105"><span className="inline"> ASSISTIR EVENTO </span></button></Link>
+                                <Link href="/programacao"><button className="border-2 border-whiite hover:bg-white hover:text-red-500 font-normal text-lg md:text-lg py-2 px-3 lg:px-6 rounded-md text-white uppercase flex items-center transition-all mx-auto md:mx-0 hover:scale-105"><span className="inline"> Nosso Eventos </span></button></Link>
                                 </div>
                             </div>
                         </div>
