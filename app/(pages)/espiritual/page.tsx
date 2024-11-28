@@ -3,7 +3,7 @@ import { excerptWords } from "@/app/parts/util/excerpt";
 import axios from "axios";
 import Image from "next/image";
 
-export function SingleArticle(props:any) {
+function SingleArticle(props:any) {
     const excerptDados = excerptWords(props.dados.content, 20);
     return(
         <div className="px-2 py-2">
@@ -24,7 +24,7 @@ export function SingleArticle(props:any) {
     )
 }
 
-export async function ListArticles () {
+async function ListArticles () {
     const { data } = await axios.get(process.env.local_api + 'articles/find');
     return(
         <section className="min-h-96 my-8">
