@@ -7,7 +7,7 @@ export interface slugArticle {
     params: { slug: string },
 }
 
-export async function ArticleSingle({ params }: slugArticle) {
+async function ArticleSingle({ params }: slugArticle) {
     const { data } = await axios.get(process.env.local_api + "articles/single", { params: { slug: params.slug } });
     return (
         <>
