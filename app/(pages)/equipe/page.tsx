@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import axios from "axios";
 import Image from "next/image";
 
-export function Voluntario(props: any) {
+function Voluntario(props: any) {
     return (
         <div className="bg-zinc-900 rounded-2xl px-4 pt-8 pb-6" id-key={props.dados.id}>
             <div className="text-center">
@@ -26,7 +26,7 @@ export function Voluntario(props: any) {
     )
 }
 
-export async function ListEquipe(props: any) {
+async function ListEquipe(props: any) {
     const { data } = await axios.get(process.env.local_api + "pessoas/find", {params: {id: props.id}});
     return (
         <div className="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-5 gap-4">
@@ -38,7 +38,7 @@ export async function ListEquipe(props: any) {
         </div>
     )
 }
-export async function ContentEquipe(props: any) {
+async function ContentEquipe(props: any) {
     const { data } = await axios.get(process.env.local_api + "equipe/find");
     return (
         <>
