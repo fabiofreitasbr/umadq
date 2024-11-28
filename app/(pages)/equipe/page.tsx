@@ -45,7 +45,7 @@ export async function ContentEquipe(props: any) {
             {
                 data.map((dadosEquipe: any) => (
                     <div key={dadosEquipe.slug}>
-                        <h1 className="text-2xl uppercase my-4">{dadosEquipe.name}</h1>
+                        <h1 className="text-2xl uppercase my-4" id-key={dadosEquipe.id}>{dadosEquipe.name}</h1>
                         <ListEquipe id={dadosEquipe.id} />
                         <hr className="border-zinc-800 mt-4" />
                     </div>
