@@ -1,13 +1,13 @@
+import AgendaList from "@/app/parts/components/agendaList";
 import HeaderTitle from "@/app/parts/estrutura/headerTitle";
-import Agenda from "@/app/parts/home/Agenda";
 
-export default function Eventos() {
+export default function Page() {
     return (
         <>
             <HeaderTitle title="Eventos" />
             <section className="min-h-96 my-8">
                 <div className="container mx-auto px-4">
-                    <Agenda />
+                    <AgendaList />
                 </div>
             </section>
         </>
