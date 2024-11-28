@@ -53,8 +53,8 @@ export default function Header() {
                 <div className="container mx-auto">
                     <ul className="flex flex-col gap-5 xl:gap-10 text-2xl font-medium">
                         <li><Link href="/" className="text-white">Home</Link></li>
-                        <li><Link href="/eventos" className="text-white">Eventos</Link></li>
-                        <li><Link href="/programacao" className="text-white">Programação</Link></li>
+                        <li><Link href="/agenda" className="text-white">Agenda</Link></li>
+                        <li><Link href="/midia" className="text-white">Fotos e Vídeos</Link></li>
                         <li><Link href="/espiritual" className="text-white">Espiritual</Link></li>
                         <li><Link href="/programacao" className="text-white">Programação</Link></li>
                         <li><Link href="/equipe" className="text-white">Equipe</Link></li>
