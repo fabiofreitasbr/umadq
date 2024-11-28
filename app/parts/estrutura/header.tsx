@@ -49,15 +49,15 @@ export default function Header() {
                     </div>
                 </div>
             </header>
-            <nav onClick={menuBurger} className={"block md:hidden z-40 w-full h-screen bg-red-600 fixed top-0 px-6 pt-28 transition-all duration-300 ease-in-out " + menuNavigation}>
+            <nav onClick={menuBurger} className={"block md:hidden z-40 w-full h-screen bg-red-900 fixed top-0 px-6 pt-28 transition-all duration-300 ease-in-out " + menuNavigation}>
                 <div className="container mx-auto">
                     <ul className="flex flex-col gap-5 xl:gap-10 text-2xl font-medium">
-                        <li><Link href="/" className="text-white">Home</Link></li>
-                        <li><Link href="/agenda" className="text-white">Agenda</Link></li>
-                        <li><Link href="/midia" className="text-white">Fotos e Vídeos</Link></li>
-                        <li><Link href="/espiritual" className="text-white">Espiritual</Link></li>
-                        <li><Link href="/programacao" className="text-white">Programação</Link></li>
-                        <li><Link href="/equipe" className="text-white">Equipe</Link></li>
+                        <li><Link href="/" className={"text-white hover:text-yellow-500" + (namePath == '/' ? " !text-bege-500" : "")}>Home</Link></li>
+                        <li><Link href="/agenda" className={"text-white hover:text-yellow-500" + (namePath == '/agenda' ? " !text-bege-500" : "")}>Agenda</Link></li>
+                        <li><Link href="/midia" className={"text-white hover:text-yellow-500" + (namePath == '/midia' ? " !text-bege-500" : "")}>Fotos e Vídeos</Link></li>
+                        <li><Link href="/espiritual" className={"text-white hover:text-yellow-500" + (namePath == '/espiritual' ? " !text-bege-500" : "")}>Espiritual</Link></li>
+                        <li><Link href="/programacao" className={"text-white hover:text-yellow-500" + (namePath == '/programacao' ? " !text-bege-500" : "")}>Programação</Link></li>
+                        <li><Link href="/equipe" className={"text-white hover:text-yellow-500" + (namePath == '/equipe' ? " !text-bege-500" : "")}>Equipe</Link></li>
                     </ul>
                 </div>
             </nav>
