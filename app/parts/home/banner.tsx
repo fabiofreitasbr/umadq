@@ -1,10 +1,6 @@
-import { faCheckSquare, faCreditCard, faIndustry } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Image from "next/image";
-import Link from "next/link";
-import ContentLinks from "../dados/contentLinks";
-import logoCongresso from "@/public/img/logo-congresso.png"
 import imgGuerreiro from  "@/public/img/guerreiro.png"
+import Link from "next/link";
 
 export default function Banner() {
     return (
@@ -16,7 +12,7 @@ export default function Banner() {
                             <div className=" container mx-auto max-w-lg">
                                 <h2 className="text-4xl text-yellow-500 pb-4">11º CONGRESSO JOVEM</h2>
                                 <h3 className="text-xl pb-6 font-light">União de Mocidade das Assembleias de Deus em Queimados apresenta o tema de guerra espiritual baseado em efésios 6.</h3>
-                                <button className="border-2 border-whiite hover:bg-white hover:text-red-500 font-normal text-lg py-2 px-3 lg:px-6 rounded-md text-white flex items-center transition-all mx-auto md:mx-0 hover:scale-105"><span className="inline"> CONFIRMAR PRESENÇA </span></button>
+                                <Link href="/midia"><button className="border-2 border-whiite hover:bg-white hover:text-red-500 font-normal text-lg py-2 px-3 lg:px-6 rounded-md text-white flex items-center transition-all mx-auto md:mx-0 hover:scale-105"><span className="inline"> ASSISTIR EVENTO </span></button></Link>
                             </div>
                         </div>
                         <div className="absolute z-10 md:relative -right-[65%] sm:-right-[55%] md:right-auto bottom-0 md:bottom-auto md:w-1/2 md:bg-guerreiro bg-contain bg-bottom bg-no-repeat h-full opacity-40 sm:opacity-40 md:opacity-40">

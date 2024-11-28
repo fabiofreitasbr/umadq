@@ -1,5 +1,3 @@
-import { toZonedTime } from 'date-fns-tz';
-import axios from "axios";
 import AgendaList from '../components/agendaList';
 
 export default async function Agenda() {
