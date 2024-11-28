@@ -1,5 +1,7 @@
+import Loading from "@/app/parts/components/loading";
 import ProgramacaoVideos from "@/app/parts/components/programacaoVideos";
 import HeaderTitle from "@/app/parts/estrutura/headerTitle";
+import { Suspense } from "react";
 
 export default function Page() {
     return (
@@ -7,7 +9,9 @@ export default function Page() {
             <HeaderTitle title="Programação" />
             <section className="min-h-96 my-8">
                 <div className="container mx-auto px-4">
-                    <ProgramacaoVideos />
+                    <Suspense fallback={<Loading />}>
+                        <ProgramacaoVideos />
+                    </Suspense>
                 </div>
             </section>
         </>
