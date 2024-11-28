@@ -3,7 +3,7 @@ import { faGoogle, faGoogleDrive } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import axios from "axios";
 
-export function ArquivoDrive(props:any) {
+function ArquivoDrive(props:any) {
     return (
         <div className=" border border-gray-700 rounded-lg p-4 md:p-6">
             <div className="bg-purple-100 text-black text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded-md  mb-2">
@@ -22,7 +22,7 @@ export function ArquivoDrive(props:any) {
         </div>
     )
 }
-export async function MidiaContent() {
+async function MidiaContent() {
     const { data } = await axios.get(process.env.local_api + "drive/find");
     return(
         <div className="grid md:grid-cols-4 gap-8 mb-8">

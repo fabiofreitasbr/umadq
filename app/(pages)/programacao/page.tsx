@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import axios from "axios";
 import Image from "next/image";
 
-export function Videos(props:any) {
+function Videos(props:any) {
     return (
         <div className="mb-8">
             <h3 className="mb-3">{props.dados.title}</h3>
@@ -13,7 +13,7 @@ export function Videos(props:any) {
     )
 }
 
-export async function ContentVideos() {
+async function ContentVideos() {
     const { data } = await axios.get(process.env.local_api + "videos/find");
     return (
         <div>
