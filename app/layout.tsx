@@ -10,17 +10,12 @@ export const metadata: Metadata = {
     description: "União de Mocidade das Assembleia de Deus de Queimados",
 };
 
-export default function RootLayout({
-    children,
-}: Readonly<{
-    children: React.ReactNode;
-}>) {
+export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
     return (
         <html lang="en">
             <body className={poppins.className + ` w-full overflow-x-hidden`}>
-
                 <Script id="google-analytics">
-                {`
+                    {`
                     window.dataLayer = window.dataLayer || [];
                     function gtag(){dataLayer.push(arguments);}
                     gtag('js', new Date());
@@ -29,7 +24,7 @@ export default function RootLayout({
                 </Script>
                 <Script async src="https://www.googletagmanager.com/gtag/js?id=G-3617HRGK6Y" />
                 {children}
-                </body>
+            </body>
         </html>
     );
 }
