@@ -2,6 +2,7 @@
 import EquipeList from "@/app/parts/components/equipeList";
 import Loading from "@/app/parts/components/loading";
 import HeaderTitle from "@/app/parts/estrutura/headerTitle";
+import LoadingEquipe from "@/app/parts/loadings/loadingEquipe";
 import { Suspense } from "react";
 
 export default function Page() {
