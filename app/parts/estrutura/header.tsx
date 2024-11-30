@@ -34,9 +34,7 @@ export default function Header() {
                                 <li><Link href="/programacao" className={"text-white hover:text-orange-500 transition-colors " + (namePath == '/contato' ? " !text-orange-500" : "")}>Programação</Link></li>
                                 <li><Link href="/equipe" className={"text-white hover:text-orange-500 transition-colors " + (namePath == '/contato' ? " !text-orange-500" : "")}>Equipe</Link></li>
                             </ul>
-
                             <div className="flex items-center gap-x-4 ">
-
                                 <div className="z-20 block md:hidden" onClick={menuBurger}>
                                     <div className={"hamburger hamburger--squeeze " + menuActive}>
                                         <div className="hamburger-box">
