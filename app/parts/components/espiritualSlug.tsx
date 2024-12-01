@@ -2,11 +2,7 @@ import axios from "axios";
 import Image from "next/image";
 import Link from "next/link";
 
-export interface slugArticle {
-    params: { slug: string },
-}
-
-export default async function EspiritualSlug({ params }: slugArticle) {
+export default async function EspiritualSlug({ params }: any) {
     const { data } = await axios.get(process.env.local_api + "articles/single", { params: { slug: params.slug } });
     return (
         <>
