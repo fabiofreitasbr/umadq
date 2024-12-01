@@ -10,22 +10,24 @@ const config: Config = {
         extend: {
             colors: {
                 red: {
-                    '500': '#8d1d18',
-                    '600': '#680c0c',
-                    '900': '#1d0908'
+                    "500": "#8d1d18",
+                    "600": "#680c0c",
+                    "900": "#1d0908"
                 },
                 yellow: {
-                    '500': '#eb9500'
+                    "500": "#eb9500"
                 },
                 bege: {
-                    '500': '#fddeb2'
+                    "500": "#fddeb2"
                 },
             },
             backgroundImage: {
-                'fundo': 'url("/img/background.png")',
-                'guerreiro': 'url("/img/guerreiro.png")',
+                "fundo": "url('/img/background.png')",
+                "guerreiro": "url('/img/guerreiro.png')",
+                "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+                "gradient-conic": "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
             },
-        }
+        },
     },
     plugins: [],
 };

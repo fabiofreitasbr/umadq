@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children, }: Readonly<{ children: React.ReactNode; }>) {
     return (
         <html lang="en">
-            <body className={poppins.className + ` w-full overflow-x-hidden`}>
+            <body className={poppins.className + ` w-full overflow-x-hidden bg-black`}>
                 <Script id="google-analytics">
                     {`
                     window.dataLayer = window.dataLayer || [];
